@@ -1,0 +1,89 @@
+body{
+    background: #eee;
+    margin: 0;
+    padding: 0;
+}
+h1.display-5{
+background: #fff;
+border-bottom: 1px solid #ccc;
+margin: 10px,0px;
+padding: 5px;
+font-size: 20px;
+font-weight: bold;
+}
+img{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    background: #fff;
+}
+
+#left,#center,#right {
+    background: white;
+    margin: 10px 0px;
+    border-right: 2px solid red;
+    
+    padding:10px;
+}
+.nwesh1{
+    color: red;
+    text-shadow: 1px 1px 1px black;
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 10px;
+    background: white;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+}
+.h1Title{
+    font-size: 16px;
+    text-overflow: ellipsis;
+    padding: 13px 0px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#right{
+    border-left: 2px solid red !important;
+    border-left: none !important;
+}
+#center{
+    border: none !important;
+ 
+}
+.card-body img{
+    width:100px;
+    position: absolute;
+    right:0;
+    top:0;
+    border:none
+}
+#template{
+    background: url("./img/10.jpg")!important;
+    background-size: cover !important;
+    height:300px;
+}
+.card{
+    background: transparent;
+    box-shadow:inset 1px 1px  39px 1px #666;
+}
+.icon{
+    width: 50px !important;
+    background: transparent!important;
+}
+.col-md-3{
+    padding-left: 31px;
+}
+.temp{
+    color:white;
+      font-size: 50px;
+      text-shadow: 1px 1px 1px black;
+}
+.card-body{
+    height:290px;
+}
+.top{
+   margin-top:10px;
+}
